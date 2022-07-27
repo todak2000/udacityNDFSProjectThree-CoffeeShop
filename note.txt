@@ -1,0 +1,47 @@
+intiate virtual env
+source  ~/.coffee/bin/activate
+
+
+register new users with
+
+https://todak.us.auth0.com/authorize?
+  audience=test&response_type=token&
+  client_id=uvN3u97rOQ1vPI4AiQy33V4e7PS0LhC2&
+  redirect_uri=https://127.0.0.1:8080/login-redirect
+
+
+  Barista JWT details 
+  {
+  "iss": "https://todak.us.auth0.com/",
+  "sub": "auth0|62d943b9084430f192656398",
+  "aud": "test",
+  "iat": 1658746270,
+  "exp": 1658753470,
+  "azp": "uvN3u97rOQ1vPI4AiQy33V4e7PS0LhC2",
+  "scope": "",
+  "permissions": [
+    "get:drinks",
+    "get:drinks-detail"
+  ]
+}
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlVXcGJqR05kMmY3aUhyRlFTZ3U0SiJ9.eyJpc3MiOiJodHRwczovL3RvZGFrLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2MmQ5NDNiOTA4NDQzMGYxOTI2NTYzOTgiLCJhdWQiOiJ0ZXN0IiwiaWF0IjoxNjU4NzU0Njc5LCJleHAiOjE2NTg3NjE4NzksImF6cCI6InV2TjN1OTdyT1ExdlBJNEFpUXkzM1Y0ZTdQUzBMaEMyIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiXX0.hA4ZIc709s6_b3d3Y0Mc3wrTuBaDjU1yA6oDjfWrqwLW7Nl1_tI3hvGpWNwo45ge1L6IOYezi8DXItGPqvCLzCSgDaOEVCaqnkwaVfuxOdH_1_iH-gcN6vE8ljJZR2drSPi7Ujcgz8j9yFEAi04bLRsWubJFpf2agWrL1BowSbrYkQrf6ayHXECHdkaMzV05L4t28oBOK481fOs1SmSzi5ZWXd2S3q0J0-G3lCQzeX_rTL8TpZcPgfNArSsDd9DM4Cb5Kn4RTQioyZHu-cDd75mADm2zr3czoKjypefGNAG5YtEgWWZIjKFYoBIs3h6n3kcOf79rC-8Hw9tpk4j9zQ
+
+MAnager JWT details
+{
+  "iss": "https://todak.us.auth0.com/",
+  "sub": "auth0|62de76ce586d8cd67d177d11",
+  "aud": "test",
+  "iat": 1658747256,
+  "exp": 1658754456,
+  "azp": "uvN3u97rOQ1vPI4AiQy33V4e7PS0LhC2",
+  "scope": "",
+  "permissions": [
+    "delete:drinks",
+    "get:drinks",
+    "get:drinks-detail",
+    "patch:drinks",
+    "post:drinks"
+  ]
+}
+
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlVXcGJqR05kMmY3aUhyRlFTZ3U0SiJ9.eyJpc3MiOiJodHRwczovL3RvZGFrLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2MmRlNzZjZTU4NmQ4Y2Q2N2QxNzdkMTEiLCJhdWQiOiJ0ZXN0IiwiaWF0IjoxNjU4NzQ3MjU2LCJleHAiOjE2NTg3NTQ0NTYsImF6cCI6InV2TjN1OTdyT1ExdlBJNEFpUXkzM1Y0ZTdQUzBMaEMyIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6ZHJpbmtzIiwiZ2V0OmRyaW5rcyIsImdldDpkcmlua3MtZGV0YWlsIiwicGF0Y2g6ZHJpbmtzIiwicG9zdDpkcmlua3MiXX0.YndJDd2VpcZAOGEOJ0xMZPL7qhDfTRtnvDWrKrYyLs85ZExb41tUvupcwKrhkcbsqhq7O4S4AaSsV5Cj2RZFBaTLNvVW4XKCOvDzDfgPz6UBI9h_w41XAoCb5JTXPhMCL1lE4nsz_j1w5ATQtGwx8fWB0WrWb3IIRZo2SOF9ugffVyjkg4jqzyiNmouETohaC-uqqX7emG6tf8VNiNU1eg7dhIxMfTzQOcLq41eUqAuUsMEC8BvJx8lCkHIuMRmdC_hDz7nOEeYO0ByMVJF1OLK7wpEb-NaGkydJ3HUpEv0QpfDo-V4b_KQRIzKW6dogCxpFwbqEAY2DkwEurPoQaA
